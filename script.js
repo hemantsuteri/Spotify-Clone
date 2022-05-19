@@ -8,16 +8,16 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs =[
-    {songName: "1Salam-e-ishq", filePath: "song/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "2Salam-e-ishq", filePath: "song/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "3Salam-e-ishq", filePath: "song/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "4Salam-e-ishq", filePath: "song/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "5Salam-e-ishq", filePath: "song/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "6Salam-e-ishq", filePath: "song/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "7Salam-e-ishq", filePath: "song/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "8Salam-e-ishq", filePath: "song/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "9Salam-e-ishq", filePath: "song/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "10Salam-e-ishq", filePath: "song/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Ukulele", filePath: "song/1ukulele.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Creative Minds", filePath: "song/2creativeminds.mp3", coverPath: "covers/2.jpg"},
+    {songName: "A New Beginning", filePath: "song/3anewbeginning.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Little Idea", filePath: "song/4littleidea.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Jazzy Frenchy", filePath: "song/5jazzyfrenchy.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Happy Rock", filePath: "song/6happyrock.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Hey", filePath: "song/7hey.mp3", coverPath: "covers/7.jpg"},
+    // {songName: "cute", filePath: "song/8cute.mp3", coverPath: "covers/8.jpg"},
+    // {songName: "9Salam-e-ishq", filePath: "song/9.mp3", coverPath: "covers/9.jpg"},
+    // {songName: "10Salam-e-ishq", filePath: "song/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element)=>{
